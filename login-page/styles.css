@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d3d3d3;
+    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.login-container {
+    width: 700px;
+    height: 570px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .nav-header{
+    margin-right: 250px;
+}
+.navbar i{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.navbar i:hover{
+    cursor: pointer;
+}
+.nav-header {
+    height: 56px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+hr {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+.button-group {
+    display: flex;
+    height: 50px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid rgb(198, 186, 186);
+    margin-top: 20px;
+    
+}
+.button-group button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgrey;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    color: #575249;
+}
+.button-group button.active {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.form-group {
+    margin: 10px 0;
+    
+}
+.login-container input{
+    padding-left: 20px;
+}
+.input-row{
+    display: flex;
+   
+    
+}
+.country-code{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+#country-code-opt{
+    width: 80px;
+    height: 56px;
+    border: 1px solid rgb(196, 185, 185);
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+    /* margin-right: 10px; */
+}
+.phone-number{
+    display: flex;
+    flex-direction: column;
+}
+#phone-number{
+    width: 590px;
+    height: 56px;
+    border: 1px solid rgb(196, 185, 185);
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.password-div{
+    display: flex;
+    flex-direction: column;
+}
+.password{
+    width: 680px;
+    height: 56px;
+    border: 1px solid rgb(196, 185, 185);
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+#account-number{
+    width: 680px;
+    height: 56px;
+    border: 1px solid rgb(196, 185, 185);
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+#email-address{
+    width: 680px;
+    height: 56px;
+    border: 1px solid rgb(196, 185, 185);
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.forgot-password{
+    margin-top: 20px;
+}
+.forgot-password a{
+    color: #009E69;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.login-button{
+    width: 100%;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #948f8f;
+    font-weight: 700;
+}
+.login-button:hover{
+    cursor: pointer;
+    background-color: #948f8f;
+    color: #292621;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.signup p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #292621;
+}
+.signup p:hover{
+    cursor: pointer;
+    
+}
+.signup a{
+    color: #009E69;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
