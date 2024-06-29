@@ -103,6 +103,7 @@ hr {
     border-radius: 10px;
     margin-top: 5px;
     text-align: center;
+    color: #575249;
     /* margin-right: 10px; */
 }
 .phone-number{
@@ -195,3 +196,33 @@ hr {
     font-weight: bolder;
 
 }
+@media only screen and (max-width: 768px) {
+    .login-container {
+        width: 90%;
+        height: auto;
+        max-width: 500px; /* Adjust max-width as needed */
+        margin: 50px auto;
+    }
+
+    .input-row {
+        flex-wrap: wrap;
+    }
+
+    .country-code {
+        width: 30%;
+        margin-right: 10px;
+    }
+
+    #phone-number {
+        width: calc(70% - 10px);
+    }
+
+    .password,
+    #account-number,
+    #email-address {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
