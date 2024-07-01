@@ -58,6 +58,7 @@
     font-size: 1em;
 }
 
+
 .search-input input::placeholder {
     color: hsla(0, 26%, 8%, 0.16); /* Placeholder text color */
 } 
